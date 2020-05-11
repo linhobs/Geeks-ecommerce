@@ -6,14 +6,14 @@ import 'firebase/auth';
 import 'firebase/analytics'
 
 const config = {
-    apiKey: "AIzaSyDIY2mp_vLsh_PWGweUM7dpHFzNXDk_jWc",
-    authDomain: "shopit-db.firebaseapp.com",
-    databaseURL: "https://shopit-db.firebaseio.com",
-    projectId: "shopit-db",
-    storageBucket: "shopit-db.appspot.com",
-    messagingSenderId: "663609297253",
-    appId: "1:663609297253:web:639859a946d8f6aa1df98c",
-    measurementId: "G-K9CGZ2M17J"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 //create user profile in database after login
 export const createUserProfileDocument = async (userAuth, additionalData) => {
