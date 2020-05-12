@@ -41,12 +41,6 @@ class App extends Component {
       //set state to null when logged out. i.e when userAuth is null
       setCurrentUser(userAuth);
 
-
-
-
-
-
-
     })
   }
   //close open subscription when component unmounts to avoid memory leak
